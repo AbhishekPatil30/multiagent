@@ -2,7 +2,7 @@ pipeline {
     agent none
     environment {
         // Define environment variables
-        STRING_VAR = 'Abhishek'
+        STRING_VAR = 'Abhishekp'
         CHOICE_VAR = 'Option1'
         BOOLEAN_VAR = true
     }
