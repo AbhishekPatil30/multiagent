@@ -36,7 +36,7 @@ pipeline {
         stage('Stage 3') {
             when {
                 allOf {
-                    branch 'main'
+                    branch 'dev'
                     expression { return env.BOOLEAN_VAR.toBoolean() }
                 }
             }
